@@ -1,3 +1,14 @@
+/*We say that a string contains the word hackerrank if a subsequence of its characters spell the word hackerrank. For example, if string it does contain hackerrank, but does not. In the second case, the second r is missing. If we reorder the first string as , it no longer contains the subsequence due to ordering.
+
+More formally, let be the respective indices of h, a, c, k, e, r, r, a, n, k in string . If is true, then contains hackerrank.
+
+For each query, print YES on a new line if the string contains hackerrank, otherwise, print NO.
+
+Input Format
+
+The first line contains an integer , the number of queries.
+Each of the next lines contains a single query string . */
+
 #include <cmath>
 #include <cstdio>
 #include <vector>
